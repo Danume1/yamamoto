@@ -1,0 +1,54 @@
+.bg-black{
+    background-color: black;
+}
+
+.height1{ 
+    height: 90vh;
+}
+
+.width1{
+    width: 61vw;
+}
+
+.resizeimage{
+    text-align: center;
+}
+
+.modalheight{
+    height: 70vh;
+}
+
+.modal-middle{
+    margin: 5% auto;
+}
+    
+.modal-img_footer{
+    padding: .5em;
+    text-align: center;
+}
+
+.jumbotron {
+    animation: fadein 3s forwards;
+  }
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.jumbotron {
+    position: relative;
+    height: 100vw;
+    background: url(image/gallery/AyanoNakamura.jpeg) center center;
+    background-size: cover;
+}
+
+footer.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
